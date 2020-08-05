@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.caja {
+    font-size: 10px;
+    width: 35em;
+    height: 40em;
+    margin: auto;
+    margin-top: 10em;
+    position: relative;
+    
+}
+.cuadro {
+    width: 35em;
+    height: 40em;
+    position: absolute;
+    background-color: #00A9AA;
+    left: -4.5em;
+    bottom: -3.5em;
+}
+.imagen{
+    width:35em;
+    height:40em;
+    position: relative;
+}
+.imagen img{
+    width:35em;
+    height:40em;
+}
+
+.letras {
+    height: 8em;
+    width: 35em;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:absolute;
+    bottom: 0em;
+    left: -1.5em;
+    bottom: -1.5em;
+    padding-top: 1em;
+    
+}
+.letras p {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
